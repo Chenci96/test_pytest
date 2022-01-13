@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 接口返回码是：【2002】\n  \t\t预期返回码是：【0】 \n  \t\t返回信息：【用户名已存在，注册失败！！！】\nassert False == True",
+      "children" : [ {
+        "name" : "【注册成功】",
+        "uid" : "9550015f990bee7",
+        "parentUid" : "27ba8e08ba5878cbb4b7a00eda6baaeb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642055388484,
+          "stop" : 1642055388498,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '测试test', 'password': '123456', 'sex': 1, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "0", "'注册成功'", "True", "{'Content-Type': 'application/json'}", "'POST'", "'注册成功'", "'/register'" ]
+      } ],
+      "uid" : "27ba8e08ba5878cbb4b7a00eda6baaeb"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

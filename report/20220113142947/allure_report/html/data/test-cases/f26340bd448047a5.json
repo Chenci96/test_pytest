@@ -1,0 +1,159 @@
+{
+  "uid" : "f26340bd448047a5",
+  "name" : "【查询全部用户成功】",
+  "fullName" : "testcases.api_test.test_01_get_user_info.TestGetUserInfo#test_get_all_user_info",
+  "historyId" : "f2d4e2cc5acd953bad4f866b97c400ec",
+  "time" : {
+    "start" : 1642055388414,
+    "stop" : 1642055388426,
+    "duration" : 12
+  },
+  "description" : "该用例是针对获取所有用户信息接口的测试",
+  "descriptionHtml" : "<p>该用例是针对获取所有用户信息接口的测试</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "该用例是针对获取所有用户信息接口的测试",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1 ==>> 获取所有用户信息",
+      "time" : {
+        "start" : 1642055388414,
+        "stop" : 1642055388414,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "title",
+        "value" : "'查询全部用户成功'"
+      }, {
+        "name" : "method",
+        "value" : "'GET'"
+      }, {
+        "name" : "url",
+        "value" : "'/users'"
+      }, {
+        "name" : "except_result",
+        "value" : "True"
+      }, {
+        "name" : "except_code",
+        "value" : "0"
+      }, {
+        "name" : "except_msg",
+        "value" : "'查询成功'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "3419cf1b90e688c1",
+      "name" : "log",
+      "source" : "3419cf1b90e688c1.txt",
+      "type" : "text/plain",
+      "size" : 4831
+    }, {
+      "uid" : "957bd1d74e92925f",
+      "name" : "stderr",
+      "source" : "957bd1d74e92925f.txt",
+      "type" : "text/plain",
+      "size" : 2020
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "epic",
+    "value" : "针对单个接口的测试"
+  }, {
+    "name" : "story",
+    "value" : "用例--获取全部用户信息"
+  }, {
+    "name" : "feature",
+    "value" : "获取全部用户信息模块"
+  }, {
+    "name" : "tag",
+    "value" : "single"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.api_test"
+  }, {
+    "name" : "suite",
+    "value" : "test_01_get_user_info"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGetUserInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-UN3DE87"
+  }, {
+    "name" : "thread",
+    "value" : "5044-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.api_test.test_01_get_user_info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "except_code",
+    "value" : "0"
+  }, {
+    "name" : "except_msg",
+    "value" : "'查询成功'"
+  }, {
+    "name" : "except_result",
+    "value" : "True"
+  }, {
+    "name" : "method",
+    "value" : "'GET'"
+  }, {
+    "name" : "title",
+    "value" : "'查询全部用户成功'"
+  }, {
+    "name" : "url",
+    "value" : "'/users'"
+  } ],
+  "links" : [ {
+    "name" : "点击，跳转到对应用例的链接地址",
+    "url" : "https://www.baidu.com/",
+    "type" : "test_case"
+  }, {
+    "name" : "点击，跳转到对应BUG的链接地址",
+    "url" : "https://www.baidu.com/",
+    "type" : "issue"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "single" ]
+  },
+  "source" : "f26340bd448047a5.json",
+  "parameterValues" : [ "0", "'查询成功'", "True", "'GET'", "'查询全部用户成功'", "'/users'" ]
+}

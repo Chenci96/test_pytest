@@ -1,0 +1,62 @@
+INFO     logs:test_02_get_one_user_info.py:33 *************** 开始执行用例 ***************
+INFO     logs:test_02_get_one_user_info.py:16 步骤1 ==>> 获取单个用户信息：查询单个用户成功
+INFO     logs:read_requests.py:45 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+INFO     logs:read_requests.py:46 接口请求方式 ==>> GET
+INFO     logs:read_requests.py:48 接口请求头 ==>> null
+INFO     logs:read_requests.py:49 接口请求 params 参数 ==>> null
+INFO     logs:read_requests.py:50 接口请求体 data 参数 ==>> null
+INFO     logs:read_requests.py:51 接口请求体 json 参数 ==>> null
+INFO     logs:read_requests.py:52 接口上传附件 files 参数 ==>> None
+INFO     logs:read_requests.py:53 接口 cookies 参数 ==>> null
+DEBUG    urllib3.connectionpool:connectionpool.py:240 Resetting dropped connection: 172.16.0.46
+DEBUG    urllib3.connectionpool:connectionpool.py:391 http://172.16.0.46:9999 "GET /users/wintest4 HTTP/1.1" 200 282
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.06205815947972673
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.12799495392693638
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.4539079272952045
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     logs:test_02_get_one_user_info.py:43 查看单个用户 ==>> 返回结果 ==>> 
+{
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+INFO     logs:test_02_get_one_user_info.py:46 code ==>> 期望结果：0， 实际结果：【 0 】
+INFO     logs:test_02_get_one_user_info.py:49 *************** 结束执行用例 ***************

@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+
+test_get_all_user_info:
+  # 测试标题,请求方式,接口地址,期望结果,期望返回码,期望返回信息
+  # title, method, url, except_result, except_code, except_msg
+  - ["查询全部用户成功", "GET", "/users", True, 0, "查询成功"]
+
+test_get_one_user_info:
+  # 测试标题,请求方式,接口地址,用户名,期望结果,期望返回码,期望返回信息
+  # title, method, url, username, except_result, except_code, except_msg
+  - ["查询单个用户成功", "GET", "/users/{}", "wintest4", True, 0, "查询成功"]
+  - ["查不到相关用户", "GET", "/users/{}", "wintest1111", False, "1004", "查不到相关用户"]
+
+test_register_user:
+  # 测试标题,请求方式,接口地址,请求头,请求数据,期望结果,期望返回码,期望返回信息
+  # title, method, url, headers, data, except_result, except_code, except_msg
+  - ["注册成功", "POST", "/register", {"Content-Type": "application/json"}, {"username": "测试test","password": "123456","sex": 1,"telephone": 13599999998,"address": "深圳市宝安区"}, True, 0, "注册成功"]
+  - ["注册失败-性别错误", "POST", "/register", {"Content-Type": "application/json"}, {"username": "测试test1","password": "123456","sex": 3,"telephone": 13599999998,"address": "深圳市宝安区"}, False, 2003, "输入的性别只能是 0(男) 或 1(女)"]
+  - ["注册失败-用户名已存在", "POST", "/register", {"Content-Type": "application/json"}, {"username": "wintest4","password": "123456","sex": 1,"telephone": 13599999999,"address": "深圳市宝安区"}, False, 2002, "用户名已存在"]

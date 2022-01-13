@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","10","testcases.api_test","test_03_register_user","TestGetOneUserInfo","","","【注册失败-用户名已存在】","该用例是针对获取用户注册接口的测试"
+"failed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","14","testcases.api_test","test_03_register_user","TestGetOneUserInfo","","","【注册成功】","该用例是针对获取用户注册接口的测试"
+"passed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","9","testcases.api_test","test_02_get_one_user_info","TestGetOneUserInfo","","","【查询单个用户成功】","该用例是针对获取单个用户信息接口的测试"
+"passed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","9","testcases.api_test","test_03_register_user","TestGetOneUserInfo","","","【注册失败-性别错误】","该用例是针对获取用户注册接口的测试"
+"passed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","12","testcases.api_test","test_01_get_user_info","TestGetUserInfo","","","【查询全部用户成功】","该用例是针对获取所有用户信息接口的测试"
+"passed","Thu Jan 13 14:29:48 CST 2022","Thu Jan 13 14:29:48 CST 2022","11","testcases.api_test","test_02_get_one_user_info","TestGetOneUserInfo","","","【查不到相关用户】","该用例是针对获取单个用户信息接口的测试"

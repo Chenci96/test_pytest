@@ -1,0 +1,29 @@
+[2022-01-13 14:29:48,440][test_02_get_one_user_info.py 33][INFO]: *************** 开始执行用例 ***************
+[2022-01-13 14:29:48,440][test_02_get_one_user_info.py 16][INFO]: 步骤1 ==>> 获取单个用户信息：查询单个用户成功
+[2022-01-13 14:29:48,440][read_requests.py 45][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-13 14:29:48,440][read_requests.py 46][INFO]: 接口请求方式 ==>> GET
+[2022-01-13 14:29:48,440][read_requests.py 48][INFO]: 接口请求头 ==>> null
+[2022-01-13 14:29:48,440][read_requests.py 49][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-13 14:29:48,441][read_requests.py 50][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-13 14:29:48,441][read_requests.py 51][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-13 14:29:48,441][read_requests.py 52][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-13 14:29:48,441][read_requests.py 53][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-13 14:29:48,448][test_02_get_one_user_info.py 43][INFO]: 查看单个用户 ==>> 返回结果 ==>> 
+{
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-13 14:29:48,448][test_02_get_one_user_info.py 46][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-13 14:29:48,448][test_02_get_one_user_info.py 49][INFO]: *************** 结束执行用例 ***************

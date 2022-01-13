@@ -1,0 +1,9 @@
+openpyxl==3.0.9
+pytest==6.2.5
+PyMySQL==0.9.3
+allure-pytest==2.8.6
+requests==2.20.0
+PyYAML==5.3.1
+pytest-html==3.1.1
+yagmail==0.14.260
+sshtunnel==0.4.0

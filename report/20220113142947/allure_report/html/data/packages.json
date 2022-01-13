@@ -1,0 +1,123 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.api_test",
+    "children" : [ {
+      "name" : "test_01_get_user_info",
+      "children" : [ {
+        "name" : "【查询全部用户成功】",
+        "uid" : "f26340bd448047a5",
+        "parentUid" : "1ebb87a667c45d68a60f9b93e4e98235",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388414,
+          "stop" : 1642055388426,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询全部用户成功'", "'/users'" ]
+      } ],
+      "uid" : "1ebb87a667c45d68a60f9b93e4e98235"
+    }, {
+      "name" : "test_02_get_one_user_info",
+      "children" : [ {
+        "name" : "【查询单个用户成功】",
+        "uid" : "eeed92a99cde216b",
+        "parentUid" : "02d2768eca4702f96dfb45204bd9cda1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388440,
+          "stop" : 1642055388449,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询单个用户成功'", "'/users/{}'", "'wintest4'" ]
+      }, {
+        "name" : "【查不到相关用户】",
+        "uid" : "8293c80f81cdeda0",
+        "parentUid" : "02d2768eca4702f96dfb45204bd9cda1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388462,
+          "stop" : 1642055388473,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'1004'", "'查不到相关用户'", "False", "'GET'", "'查不到相关用户'", "'/users/{}'", "'wintest1111'" ]
+      } ],
+      "uid" : "02d2768eca4702f96dfb45204bd9cda1"
+    }, {
+      "name" : "test_03_register_user",
+      "children" : [ {
+        "name" : "【注册成功】",
+        "uid" : "9550015f990bee7",
+        "parentUid" : "7611be86d943d72df010421f36c6c1f9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642055388484,
+          "stop" : 1642055388498,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '测试test', 'password': '123456', 'sex': 1, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "0", "'注册成功'", "True", "{'Content-Type': 'application/json'}", "'POST'", "'注册成功'", "'/register'" ]
+      }, {
+        "name" : "【注册失败-性别错误】",
+        "uid" : "475037a0cd12fc2f",
+        "parentUid" : "7611be86d943d72df010421f36c6c1f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388611,
+          "stop" : 1642055388620,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '测试test1', 'password': '123456', 'sex': 3, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "2003", "'输入的性别只能是 0(男) 或 1(女)'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-性别错误'", "'/register'" ]
+      }, {
+        "name" : "【注册失败-用户名已存在】",
+        "uid" : "537fddd59069936e",
+        "parentUid" : "7611be86d943d72df010421f36c6c1f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388632,
+          "stop" : 1642055388642,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'wintest4', 'password': '123456', 'sex': 1, 'telephone': 13599999999, 'address': '深圳市宝安区'}", "2002", "'用户名已存在'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-用户名已存在'", "'/register'" ]
+      } ],
+      "uid" : "7611be86d943d72df010421f36c6c1f9"
+    } ],
+    "uid" : "testcases.api_test"
+  } ]
+}

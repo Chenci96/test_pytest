@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Win10" ],
+  "name" : "SystemVersion"
+}, {
+  "values" : [ "3.8" ],
+  "name" : "PythonVersion"
+}, {
+  "values" : [ "http://172.16.0.46:9999" ],
+  "name" : "BaseUrl"
+}, {
+  "values" : [ "TEST" ],
+  "name" : "ProjectName"
+}, {
+  "values" : [ "Cc" ],
+  "name" : "Tester"
+} ]

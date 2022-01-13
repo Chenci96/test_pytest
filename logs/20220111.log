@@ -1,0 +1,879 @@
+[2022-01-11 14:26:24,485][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:26:24,865][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:26:28,058][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:26:28,060][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:28:26,568][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:28:26,919][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:28:28,985][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:28:28,985][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:33:28,421][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:33:50,750][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:33:51,142][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:33:52,904][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:33:52,906][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:44:52,297][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:44:52,637][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:44:52,828][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:44:52,834][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:44:52,834][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:44:52,834][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:44:52,834][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:44:52,834][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:44:52,834][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:44:52,835][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:44:52,836][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:44:52,836][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:44:52,836][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:44:53,150][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:44:53,151][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:44:53,151][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:44:53,151][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:44:53,151][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:44:53,151][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:44:53,152][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:44:53,152][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:44:53,152][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:44:53,152][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:44:54,163][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:44:54,163][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:44:54,164][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:44:54,170][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:44:54,170][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:44:54,170][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:44:54,170][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:44:54,170][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:44:54,170][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:44:54,170][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:44:54,170][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:44:54,170][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:44:54,170][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:44:54,176][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:44:54,176][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:44:54,176][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:44:55,979][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:44:55,980][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:47:22,389][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:22,723][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:47:22,890][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:22,896][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:22,896][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:47:22,896][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:47:22,896][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:22,896][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:22,896][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:22,897][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:22,897][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:22,897][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:22,897][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:22,903][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 14:47:22,903][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:22,910][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:22,910][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:47:22,910][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:47:22,910][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:22,910][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:22,912][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:22,912][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:22,912][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:22,912][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:22,912][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:22,919][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:47:22,919][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:47:22,919][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:22,926][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:22,926][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:47:22,926][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:47:22,926][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:22,926][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:22,926][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:22,926][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:22,927][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:22,927][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:22,927][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:22,932][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:47:22,933][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:47:22,933][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:24,667][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:24,668][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:47:40,241][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:40,588][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:47:40,751][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:40,757][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:40,757][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:47:40,758][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:47:40,758][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:40,758][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:40,758][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:40,758][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:40,758][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:40,758][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:40,759][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:41,765][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 14:47:41,765][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:41,774][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:41,775][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:47:41,775][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:47:41,775][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:41,775][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:41,775][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:41,775][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:41,775][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:41,776][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:41,776][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:41,782][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:47:41,783][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:47:41,783][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:41,790][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:47:41,790][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:47:41,790][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:47:41,790][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:47:41,790][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:47:41,790][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:47:41,790][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:47:41,790][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:47:41,790][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:47:41,792][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:47:41,796][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:47:41,797][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:47:41,797][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:47:43,574][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:47:43,575][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:49:12,231][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:49:12,560][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:49:12,726][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:49:12,732][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:49:12,733][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:49:12,733][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:49:12,733][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:49:12,733][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:49:12,734][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:49:12,734][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:49:12,734][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:49:12,734][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:49:12,734][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:49:12,742][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 14:49:12,742][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:49:12,749][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:49:12,749][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:49:12,749][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:49:12,749][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:49:12,749][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:49:12,749][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:49:12,749][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:49:12,749][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:49:12,749][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:49:12,749][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:49:12,757][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:49:12,757][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:49:12,757][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:49:12,763][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:49:12,763][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:49:12,763][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:49:12,765][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:49:12,765][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:49:12,765][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:49:12,765][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:49:12,765][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:49:12,765][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:49:12,765][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:49:12,770][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:49:12,771][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:49:12,771][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:49:14,478][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:49:14,479][read_data.py 85][INFO]: 写入文件成功,写入值为：email
+[2022-01-11 14:51:15,853][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:51:16,192][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:51:16,363][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:51:16,369][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:51:16,369][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:51:16,369][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:51:16,369][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:51:16,369][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:51:16,369][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:51:16,369][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:51:16,370][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:51:16,370][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:51:16,370][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:51:16,376][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 14:51:16,376][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:51:16,386][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:51:16,386][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:51:16,387][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:51:16,387][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:51:16,387][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:51:16,387][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:51:16,387][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:51:16,387][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:51:16,387][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:51:16,387][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:51:16,399][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:51:16,399][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:51:16,399][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:51:16,407][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:51:16,408][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:51:16,408][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:51:16,408][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:51:16,408][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:51:16,408][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:51:16,409][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:51:16,409][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:51:16,409][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:51:16,409][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:51:16,416][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:51:16,416][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:51:16,416][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:51:18,217][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:51:18,218][read_data.py 85][INFO]: 写入E:\pyfile\python_pytest\test_pytest\config\config.ini文件成功,写入值为：section:email,option:attachments,value:report/20220111145115/html_report/report.html
+[2022-01-11 14:54:31,577][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:54:31,920][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 14:54:32,091][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:54:32,096][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:54:32,096][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 14:54:32,096][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 14:54:32,096][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:54:32,096][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:54:32,096][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:54:32,097][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:54:32,097][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:54:32,098][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:54:32,098][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:54:32,104][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 14:54:32,104][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:54:32,112][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:54:32,112][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 14:54:32,113][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 14:54:32,113][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:54:32,113][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:54:32,113][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:54:32,113][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:54:32,113][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:54:32,113][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:54:32,113][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:54:32,121][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 14:54:32,121][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 14:54:32,121][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:54:32,128][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 14:54:32,128][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 14:54:32,128][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 14:54:32,128][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 14:54:32,128][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 14:54:32,128][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 14:54:32,128][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 14:54:32,129][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 14:54:32,129][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 14:54:32,129][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 14:54:32,135][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 14:54:32,135][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 14:54:32,135][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 14:54:33,908][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 14:54:33,909][read_data.py 85][INFO]: 写入【E:\pyfile\python_pytest\test_pytest\config\config.ini】文件成功,写入值为：section:【email】,
+option:【attachments】,
+value:【report/20220111145431/html_report/report.html】
+[2022-01-11 15:22:56,337][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 15:22:56,685][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 15:22:56,861][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 15:22:56,867][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 15:22:56,867][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 15:22:56,867][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 15:22:56,867][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 15:22:56,867][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 15:22:56,867][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 15:22:56,867][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 15:22:56,868][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 15:22:56,868][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 15:22:56,868][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 15:22:56,875][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 15:22:56,875][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 15:22:56,883][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 15:22:56,885][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 15:22:56,885][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 15:22:56,885][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 15:22:56,885][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 15:22:56,885][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 15:22:56,885][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 15:22:56,885][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 15:22:56,885][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 15:22:56,885][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 15:22:56,893][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 15:22:56,893][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 15:22:56,893][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 15:22:56,904][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 15:22:56,904][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 15:22:56,904][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 15:22:56,904][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 15:22:56,904][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 15:22:56,905][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 15:22:56,905][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 15:22:56,905][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 15:22:56,905][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 15:22:56,905][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 15:22:56,911][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 15:22:56,911][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 15:22:56,911][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 15:22:58,886][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 15:22:58,888][read_data.py 85][INFO]: 写入E:\pyfile\python_pytest\test_pytest\config\config.ini文件成功,写入值为：section:email,option:attachments,value:report/20220111152256/html_report/report.html
+[2022-01-11 16:09:03,371][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 16:09:03,372][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/cc
+[2022-01-11 16:09:03,372][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 16:09:03,372][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 16:09:03,373][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 16:09:03,373][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 16:09:03,373][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 16:09:03,373][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 16:09:03,373][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 16:09:32,645][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 16:09:32,646][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/cc
+[2022-01-11 16:09:32,646][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 16:09:32,646][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 16:09:32,646][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 16:09:32,646][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 16:09:32,646][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 16:09:32,646][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 16:09:32,646][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 16:09:32,659][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 17:02:40,617][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 17:02:40,962][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 17:02:41,136][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 17:02:41,142][test_01_get_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 17:02:41,142][test_01_get_user_info.py 16][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 17:02:41,142][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 17:02:41,142][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 17:02:41,142][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 17:02:41,142][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 17:02:41,143][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 17:02:41,143][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 17:02:41,143][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 17:02:41,143][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 17:02:41,151][test_01_get_user_info.py 43][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 17:02:41,151][test_01_get_user_info.py 46][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 17:02:41,160][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 17:02:41,160][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest4
+[2022-01-11 17:02:41,160][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest4
+[2022-01-11 17:02:41,160][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 17:02:41,161][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 17:02:41,161][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 17:02:41,161][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 17:02:41,161][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 17:02:41,161][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 17:02:41,162][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 17:02:41,168][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 17:02:41,168][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：0， 实际结果：【 0 】
+[2022-01-11 17:02:41,168][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 17:02:41,176][test_01_get_user_info.py 57][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 17:02:41,176][test_01_get_user_info.py 21][INFO]: 步骤1 ==>> 获取某个用户信息：wintest1111
+[2022-01-11 17:02:41,176][rest_client.py 51][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users/wintest1111
+[2022-01-11 17:02:41,176][rest_client.py 52][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 17:02:41,176][rest_client.py 54][INFO]: 接口请求头 ==>> null
+[2022-01-11 17:02:41,176][rest_client.py 55][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 17:02:41,176][rest_client.py 56][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 17:02:41,176][rest_client.py 57][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 17:02:41,176][rest_client.py 58][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 17:02:41,176][rest_client.py 59][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 17:02:41,182][user.py 49][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": "1004", 
+  "msg": "查不到相关用户的信息"
+}
+
+[2022-01-11 17:02:41,182][test_01_get_user_info.py 63][INFO]: code ==>> 期望结果：1004， 实际结果：【 1004 】
+[2022-01-11 17:02:41,182][test_01_get_user_info.py 66][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 17:02:44,107][read_data.py 74][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 17:02:44,108][read_data.py 85][INFO]: 写入E:\pyfile\python_pytest\test_pytest\config\config.ini文件成功,写入值为：section:email,option:attachments,value:report/20220111170240/html_report/report.html
+[2022-01-11 18:09:08,360][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:11:31,472][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:13:23,394][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:14:29,279][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:15:15,936][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:15:16,207][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:15:16,208][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 18:15:16,208][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 18:15:16,209][read_request.py 56][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 18:15:16,209][read_request.py 57][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 18:15:16,209][read_request.py 59][INFO]: 接口请求头 ==>> null
+[2022-01-11 18:15:16,209][read_request.py 60][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 18:15:16,209][read_request.py 61][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 18:15:16,209][read_request.py 62][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 18:15:16,209][read_request.py 63][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 18:15:16,209][read_request.py 64][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 18:15:16,216][test_01_get_user_info.py 53][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 18:15:16,216][test_01_get_user_info.py 58][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 18:15:49,899][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:15:50,171][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:15:50,172][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 18:15:50,172][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 18:15:50,173][read_request.py 56][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 18:15:50,173][read_request.py 57][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 18:15:50,173][read_request.py 59][INFO]: 接口请求头 ==>> null
+[2022-01-11 18:15:50,173][read_request.py 60][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 18:15:50,173][read_request.py 61][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 18:15:50,173][read_request.py 62][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 18:15:50,173][read_request.py 63][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 18:15:50,173][read_request.py 64][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 18:15:51,181][test_01_get_user_info.py 53][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 18:15:51,181][test_01_get_user_info.py 58][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 18:20:40,784][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:23:20,734][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:23:21,018][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:23:21,018][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 18:23:21,018][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 18:23:21,019][read_request.py 56][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 18:23:21,019][read_request.py 57][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 18:23:21,019][read_request.py 59][INFO]: 接口请求头 ==>> null
+[2022-01-11 18:23:21,019][read_request.py 60][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 18:23:21,019][read_request.py 61][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 18:23:21,019][read_request.py 62][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 18:23:21,019][read_request.py 63][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 18:23:21,019][read_request.py 64][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 18:23:22,031][test_01_get_user_info.py 51][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }, 
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 18:23:22,031][test_01_get_user_info.py 54][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 18:23:22,031][test_01_get_user_info.py 57][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 18:48:03,730][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:48:03,998][test_02_get_one_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:48:03,998][test_02_get_one_user_info.py 20][INFO]: 步骤1 ==>> 获取某个用户信息：/users/{}
+[2022-01-11 18:48:04,120][test_02_get_one_user_info.py 37][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:48:04,120][test_02_get_one_user_info.py 20][INFO]: 步骤1 ==>> 获取某个用户信息：/users/{}
+[2022-01-11 18:52:05,587][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:52:05,858][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:52:05,859][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 18:54:52,451][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 18:54:52,719][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 18:54:52,720][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 19:07:12,811][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:07:12,811][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:07:12,812][read_request.py 61][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:07:12,812][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:07:12,812][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:07:12,812][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:07:12,812][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:07:12,812][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:07:12,812][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:08:26,418][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:08:26,419][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:08:26,419][read_request.py 61][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:08:26,419][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:08:26,419][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:08:26,419][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:08:26,419][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:08:26,419][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:08:26,419][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:09:47,933][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:09:48,059][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:09:48,207][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 19:09:48,207][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 19:09:48,207][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:09:48,208][read_request.py 61][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:09:48,208][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:09:48,208][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:09:48,208][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:09:48,208][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:09:48,208][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:09:48,208][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:09:48,717][test_01_get_user_info.py 47][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }, 
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 19:09:48,717][test_01_get_user_info.py 50][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 19:09:48,717][test_01_get_user_info.py 53][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 19:10:23,185][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:10:23,313][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:10:23,470][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 19:10:23,470][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 19:10:23,470][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:10:23,470][read_request.py 61][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:10:23,470][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:10:23,470][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:10:23,470][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:10:23,470][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:10:23,471][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:10:23,471][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:10:23,980][test_01_get_user_info.py 47][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }, 
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 19:10:23,980][test_01_get_user_info.py 50][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 19:10:23,981][test_01_get_user_info.py 53][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 19:11:18,395][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:11:18,395][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:11:18,395][read_request.py 61][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:11:18,396][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:11:18,396][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:11:18,396][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:11:18,396][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:11:18,396][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:11:18,396][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:11:29,081][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:11:29,082][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:11:29,082][read_request.py 61][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:11:29,082][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:11:29,082][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:11:29,082][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:11:29,082][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:11:29,082][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:11:29,082][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:11:41,424][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:11:41,425][read_request.py 60][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:11:41,426][read_request.py 61][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:11:41,426][read_request.py 63][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:11:41,426][read_request.py 64][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:11:41,426][read_request.py 65][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:11:41,426][read_request.py 66][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:11:41,426][read_request.py 67][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:11:41,426][read_request.py 68][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:12:31,645][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:12:31,647][read_request.py 62][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:12:31,647][read_request.py 63][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:12:31,647][read_request.py 65][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:12:31,647][read_request.py 66][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:12:31,647][read_request.py 67][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:12:31,647][read_request.py 68][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:12:31,647][read_request.py 69][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:12:31,647][read_request.py 70][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:12:56,229][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:12:56,230][read_request.py 61][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:12:56,230][read_request.py 62][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:12:56,230][read_request.py 64][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:12:56,230][read_request.py 65][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:12:56,230][read_request.py 66][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:12:56,231][read_request.py 67][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:12:56,231][read_request.py 68][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:12:56,231][read_request.py 69][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:13:04,031][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:13:04,031][read_request.py 61][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:13:04,032][read_request.py 62][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:13:04,032][read_request.py 64][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:13:04,032][read_request.py 65][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:13:04,032][read_request.py 66][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:13:04,032][read_request.py 67][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:13:04,032][read_request.py 68][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:13:04,032][read_request.py 69][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:13:49,987][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:13:49,988][read_request.py 61][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:13:49,988][read_request.py 62][INFO]: 接口请求方式 ==>> get
+[2022-01-11 19:13:49,988][read_request.py 64][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:13:49,988][read_request.py 65][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:13:49,988][read_request.py 66][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:13:49,989][read_request.py 67][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:13:49,989][read_request.py 68][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:13:49,989][read_request.py 69][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:14:53,666][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:14:53,799][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:14:53,938][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 19:14:53,938][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 19:14:53,939][read_request.py 46][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:14:53,939][read_request.py 47][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:14:53,939][read_request.py 49][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:14:53,939][read_request.py 50][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:14:53,939][read_request.py 51][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:14:53,939][read_request.py 52][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:14:53,939][read_request.py 53][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:14:53,939][read_request.py 54][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:14:53,951][test_01_get_user_info.py 47][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }, 
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 19:14:53,951][test_01_get_user_info.py 50][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 19:14:53,951][test_01_get_user_info.py 53][INFO]: *************** 结束执行用例 ***************
+[2022-01-11 19:16:47,299][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:16:47,425][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:17:55,015][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:17:55,139][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:18:10,661][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:18:10,795][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:20:34,361][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:20:34,488][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:20:55,560][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:20:55,686][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:21:14,578][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:21:14,705][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:22:58,029][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:22:58,179][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:23:15,987][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:23:16,116][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:34:01,306][read_data.py 26][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\data\api_test_data.yml 文件......
+[2022-01-11 19:34:01,432][read_data.py 53][INFO]: 加载 E:\pyfile\python_pytest\test_pytest\config\config.ini 文件......
+[2022-01-11 19:34:01,571][test_01_get_user_info.py 35][INFO]: *************** 开始执行用例 ***************
+[2022-01-11 19:34:01,571][test_01_get_user_info.py 19][INFO]: 步骤1 ==>> 获取所有用户信息
+[2022-01-11 19:34:01,571][read_request.py 46][INFO]: 接口请求地址 ==>> http://172.16.0.46:9999/users
+[2022-01-11 19:34:01,571][read_request.py 47][INFO]: 接口请求方式 ==>> GET
+[2022-01-11 19:34:01,571][read_request.py 49][INFO]: 接口请求头 ==>> null
+[2022-01-11 19:34:01,571][read_request.py 50][INFO]: 接口请求 params 参数 ==>> null
+[2022-01-11 19:34:01,571][read_request.py 51][INFO]: 接口请求体 data 参数 ==>> null
+[2022-01-11 19:34:01,572][read_request.py 52][INFO]: 接口请求体 json 参数 ==>> null
+[2022-01-11 19:34:01,572][read_request.py 53][INFO]: 接口上传附件 files 参数 ==>> None
+[2022-01-11 19:34:01,572][read_request.py 54][INFO]: 接口 cookies 参数 ==>> null
+[2022-01-11 19:34:01,584][test_01_get_user_info.py 47][INFO]: 查看单个用户 ==>> 返回结果 ==>> {
+  "code": 0, 
+  "data": [
+    {
+      "address": null, 
+      "id": 1, 
+      "password": "123456", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13000000001", 
+      "username": "cc"
+    }, 
+    {
+      "address": "深圳市宝安区", 
+      "id": 3, 
+      "password": "ef0875fbf6504207d1c6d2d6c11ca2c0", 
+      "role": 1, 
+      "sex": 1, 
+      "telephone": "13599999999", 
+      "username": "wintest4"
+    }
+  ], 
+  "msg": "查询成功"
+}
+
+[2022-01-11 19:34:01,584][test_01_get_user_info.py 50][INFO]: code ==>> 期望结果：0， 实际结果：0
+[2022-01-11 19:34:01,584][test_01_get_user_info.py 53][INFO]: *************** 结束执行用例 ***************

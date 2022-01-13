@@ -1,0 +1,115 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-UN3DE87",
+    "children" : [ {
+      "name" : "5044-MainThread",
+      "children" : [ {
+        "name" : "【查询单个用户成功】",
+        "uid" : "eeed92a99cde216b",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388440,
+          "stop" : 1642055388449,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询单个用户成功'", "'/users/{}'", "'wintest4'" ]
+      }, {
+        "name" : "【注册成功】",
+        "uid" : "9550015f990bee7",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642055388484,
+          "stop" : 1642055388498,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '测试test', 'password': '123456', 'sex': 1, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "0", "'注册成功'", "True", "{'Content-Type': 'application/json'}", "'POST'", "'注册成功'", "'/register'" ]
+      }, {
+        "name" : "【注册失败-性别错误】",
+        "uid" : "475037a0cd12fc2f",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388611,
+          "stop" : 1642055388620,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': '测试test1', 'password': '123456', 'sex': 3, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "2003", "'输入的性别只能是 0(男) 或 1(女)'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-性别错误'", "'/register'" ]
+      }, {
+        "name" : "【查不到相关用户】",
+        "uid" : "8293c80f81cdeda0",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388462,
+          "stop" : 1642055388473,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'1004'", "'查不到相关用户'", "False", "'GET'", "'查不到相关用户'", "'/users/{}'", "'wintest1111'" ]
+      }, {
+        "name" : "【注册失败-用户名已存在】",
+        "uid" : "537fddd59069936e",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388632,
+          "stop" : 1642055388642,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'username': 'wintest4', 'password': '123456', 'sex': 1, 'telephone': 13599999999, 'address': '深圳市宝安区'}", "2002", "'用户名已存在'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-用户名已存在'", "'/register'" ]
+      }, {
+        "name" : "【查询全部用户成功】",
+        "uid" : "f26340bd448047a5",
+        "parentUid" : "f9dc00bca66a3c09bf1dc2dfc9f85516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642055388414,
+          "stop" : 1642055388426,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询全部用户成功'", "'/users'" ]
+      } ],
+      "uid" : "f9dc00bca66a3c09bf1dc2dfc9f85516"
+    } ],
+    "uid" : "a2c0363df5d21470c334fdb528e48bae"
+  } ]
+}

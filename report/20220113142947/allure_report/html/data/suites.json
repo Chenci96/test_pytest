@@ -1,0 +1,135 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.api_test",
+    "children" : [ {
+      "name" : "test_01_get_user_info",
+      "children" : [ {
+        "name" : "TestGetUserInfo",
+        "children" : [ {
+          "name" : "【查询全部用户成功】",
+          "uid" : "f26340bd448047a5",
+          "parentUid" : "decd91a8d5e0096fa772c17573238c19",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642055388414,
+            "stop" : 1642055388426,
+            "duration" : 12
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询全部用户成功'", "'/users'" ]
+        } ],
+        "uid" : "decd91a8d5e0096fa772c17573238c19"
+      } ],
+      "uid" : "9aa73e58b6175d7625a6959311cf571d"
+    }, {
+      "name" : "test_02_get_one_user_info",
+      "children" : [ {
+        "name" : "TestGetOneUserInfo",
+        "children" : [ {
+          "name" : "【查询单个用户成功】",
+          "uid" : "eeed92a99cde216b",
+          "parentUid" : "cdb2674563caa0462ba777a3282876fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642055388440,
+            "stop" : 1642055388449,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "0", "'查询成功'", "True", "'GET'", "'查询单个用户成功'", "'/users/{}'", "'wintest4'" ]
+        }, {
+          "name" : "【查不到相关用户】",
+          "uid" : "8293c80f81cdeda0",
+          "parentUid" : "cdb2674563caa0462ba777a3282876fb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642055388462,
+            "stop" : 1642055388473,
+            "duration" : 11
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'1004'", "'查不到相关用户'", "False", "'GET'", "'查不到相关用户'", "'/users/{}'", "'wintest1111'" ]
+        } ],
+        "uid" : "cdb2674563caa0462ba777a3282876fb"
+      } ],
+      "uid" : "1a2fdd55b4971db53c0caca2bbf3019d"
+    }, {
+      "name" : "test_03_register_user",
+      "children" : [ {
+        "name" : "TestGetOneUserInfo",
+        "children" : [ {
+          "name" : "【注册成功】",
+          "uid" : "9550015f990bee7",
+          "parentUid" : "171ec34e94fc13a1f4fa8636d771acc5",
+          "status" : "failed",
+          "time" : {
+            "start" : 1642055388484,
+            "stop" : 1642055388498,
+            "duration" : 14
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'username': '测试test', 'password': '123456', 'sex': 1, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "0", "'注册成功'", "True", "{'Content-Type': 'application/json'}", "'POST'", "'注册成功'", "'/register'" ]
+        }, {
+          "name" : "【注册失败-性别错误】",
+          "uid" : "475037a0cd12fc2f",
+          "parentUid" : "171ec34e94fc13a1f4fa8636d771acc5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642055388611,
+            "stop" : 1642055388620,
+            "duration" : 9
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'username': '测试test1', 'password': '123456', 'sex': 3, 'telephone': 13599999998, 'address': '深圳市宝安区'}", "2003", "'输入的性别只能是 0(男) 或 1(女)'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-性别错误'", "'/register'" ]
+        }, {
+          "name" : "【注册失败-用户名已存在】",
+          "uid" : "537fddd59069936e",
+          "parentUid" : "171ec34e94fc13a1f4fa8636d771acc5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1642055388632,
+            "stop" : 1642055388642,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'username': 'wintest4', 'password': '123456', 'sex': 1, 'telephone': 13599999999, 'address': '深圳市宝安区'}", "2002", "'用户名已存在'", "False", "{'Content-Type': 'application/json'}", "'POST'", "'注册失败-用户名已存在'", "'/register'" ]
+        } ],
+        "uid" : "171ec34e94fc13a1f4fa8636d771acc5"
+      } ],
+      "uid" : "ec76172c8bc13d7e7fdd4b0190fcc503"
+    } ],
+    "uid" : "52dad69cd27896a2cec5dbc357097398"
+  } ]
+}

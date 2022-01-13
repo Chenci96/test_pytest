@@ -1,0 +1,61 @@
+[ {
+  "uid" : "537fddd59069936e",
+  "name" : "【注册失败-用户名已存在】",
+  "time" : {
+    "start" : 1642055388632,
+    "stop" : 1642055388642,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "9550015f990bee7",
+  "name" : "【注册成功】",
+  "time" : {
+    "start" : 1642055388484,
+    "stop" : 1642055388498,
+    "duration" : 14
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+}, {
+  "uid" : "eeed92a99cde216b",
+  "name" : "【查询单个用户成功】",
+  "time" : {
+    "start" : 1642055388440,
+    "stop" : 1642055388449,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "475037a0cd12fc2f",
+  "name" : "【注册失败-性别错误】",
+  "time" : {
+    "start" : 1642055388611,
+    "stop" : 1642055388620,
+    "duration" : 9
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "f26340bd448047a5",
+  "name" : "【查询全部用户成功】",
+  "time" : {
+    "start" : 1642055388414,
+    "stop" : 1642055388426,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+}, {
+  "uid" : "8293c80f81cdeda0",
+  "name" : "【查不到相关用户】",
+  "time" : {
+    "start" : 1642055388462,
+    "stop" : 1642055388473,
+    "duration" : 11
+  },
+  "status" : "passed",
+  "severity" : "trivial"
+} ]

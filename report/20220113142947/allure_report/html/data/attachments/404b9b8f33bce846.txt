@@ -1,0 +1,59 @@
+INFO     logs:test_03_register_user.py:33 *************** 开始执行用例 ***************
+INFO     logs:test_03_register_user.py:16 步骤1 ==>> 注册用户：注册失败-性别错误
+INFO     logs:read_requests.py:45 接口请求地址 ==>> http://172.16.0.46:9999/register
+INFO     logs:read_requests.py:46 接口请求方式 ==>> POST
+INFO     logs:read_requests.py:48 接口请求头 ==>> {
+    "Content-Type": "application/json"
+}
+INFO     logs:read_requests.py:49 接口请求 params 参数 ==>> null
+INFO     logs:read_requests.py:50 接口请求体 data 参数 ==>> null
+INFO     logs:read_requests.py:51 接口请求体 json 参数 ==>> {
+    "username": "测试test1",
+    "password": "123456",
+    "sex": 3,
+    "telephone": 13599999998,
+    "address": "深圳市宝安区"
+}
+INFO     logs:read_requests.py:52 接口上传附件 files 参数 ==>> None
+INFO     logs:read_requests.py:53 接口 cookies 参数 ==>> null
+DEBUG    urllib3.connectionpool:connectionpool.py:204 Starting new HTTP connection (1): 172.16.0.46:9999
+DEBUG    urllib3.connectionpool:connectionpool.py:391 http://172.16.0.46:9999 "POST /register HTTP/1.1" 200 84
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 KOI8-R Russian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 MacCyrillic Russian confidence = 0.05251075032899955
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM866 Russian confidence = 0.036039987027046264
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 IBM855 Russian confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-7 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1253 Greek confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1251 Bulgarian confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 TIS-620 Thai confidence = 0.15420909087264145
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 ISO-8859-9 Turkish confidence = 0.08413222135776366
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 windows-1255 Hebrew confidence = 0.0
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 utf-8  confidence = 0.99
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 SHIFT_JIS Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-JP Japanese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 GB2312 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-KR Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 CP949 Korean confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 Big5 Chinese confidence = 0.01
+DEBUG    chardet.charsetprober:charsetgroupprober.py:100 EUC-TW Taiwan confidence = 0.01
+INFO     logs:test_03_register_user.py:43 注册用户信息 ==>> 返回结果 ==>> 
+{
+  "code": 2003, 
+  "msg": "输入的性别只能是 0(男) 或 1(女)！！！"
+}
+
+INFO     logs:test_03_register_user.py:46 code ==>> 期望结果：2003， 实际结果：【 2003 】
+INFO     logs:test_03_register_user.py:49 *************** 结束执行用例 ***************

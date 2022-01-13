@@ -1,0 +1,117 @@
+{
+  "2876da00e1e0b95bd5d2159cc8cef078" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eeed92a99cde216b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642055388440,
+        "stop" : 1642055388449,
+        "duration" : 9
+      }
+    } ]
+  },
+  "d85f376bdff6198e59ea99e4ed0e420c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9550015f990bee7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 接口返回码是：【2002】\n  \t\t预期返回码是：【0】 \n  \t\t返回信息：【用户名已存在，注册失败！！！】\nassert False == True",
+      "time" : {
+        "start" : 1642055388484,
+        "stop" : 1642055388498,
+        "duration" : 14
+      }
+    } ]
+  },
+  "186dd63e3468e75950c228c5ba65a819" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "537fddd59069936e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642055388632,
+        "stop" : 1642055388642,
+        "duration" : 10
+      }
+    } ]
+  },
+  "d22eb5ecdbe4ee0860ffda573beca16a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8293c80f81cdeda0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642055388462,
+        "stop" : 1642055388473,
+        "duration" : 11
+      }
+    } ]
+  },
+  "ad9e61e1ee77c7dfe647fee3572c5ccb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "475037a0cd12fc2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642055388611,
+        "stop" : 1642055388620,
+        "duration" : 9
+      }
+    } ]
+  },
+  "f2d4e2cc5acd953bad4f866b97c400ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f26340bd448047a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642055388414,
+        "stop" : 1642055388426,
+        "duration" : 12
+      }
+    } ]
+  }
+}
